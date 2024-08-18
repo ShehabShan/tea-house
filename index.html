@@ -18,6 +18,15 @@
     ></script>
     <!-- tailwind css cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .text-gradient {
+        background: linear-gradient(to left, #ff0000, #ff8938);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+      }
+    </style>
     <script>
       tailwind.config = {
         theme: {
@@ -62,7 +71,7 @@
           </div>
         </div>
       </section>
-      <section class="mt-36">
+      <section class="mt-36 mb-24-">
         <div class="mb-12">
           <h1 class="text-hColor font-extrabold text-5xl mb-7 text-center">
             Our Featured Products
@@ -192,6 +201,54 @@
             Premium Quality that makes tea more elegant and more durable when
             you use it.
           </p>
+        </div>
+      </section>
+      <!-- color box -->
+      <section
+        class="flex bg-gradient-to-l from-[#FF0000] to-[#FF8938] px-10 py-10 mb-48"
+      >
+        <div class="w-1/2 pr-36 mt-48">
+          <h1 class="text-5xl text-[#F4F4F4]">Meet Our Super Clients</h1>
+          <p class="text-[#F4F4F4] mt-5 mb-5">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+          <button class="px-7 py-4 bg-white rounded-[12px] font-extrabold ]">
+            <p class="text-gradient text-xl">See All</p>
+          </button>
+        </div>
+        <div class="w-1/2 relative py-10 pr-6">
+          <div class="bg-white p-11 mb-16 opacity-30">
+            <img src="./images/client.png" alt="" />
+            <p class="text-pColor line">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <h3 class="text-hColor font-bold mt-5 mb-4">Ilham Yuda</h3>
+            <p class="text-pColor font-medium">Businessman</p>
+          </div>
+
+          <div class="bg-white p-11 opacity-30">
+            <img src="./images/client.png" alt="" />
+            <p class="text-pColor line">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <h3 class="text-hColor font-bold mt-5 mb-4">Ilham Yuda</h3>
+            <p class="text-pColor font-medium">Businessman</p>
+          </div>
+
+          <div class="bg-white p-11 absolute top-52 right-28 -left-28">
+            <img src="./images/client.png" alt="" />
+            <p class="text-pColor line">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <h3 class="text-hColor font-bold mt-5 mb-4">Ilham Yuda</h3>
+            <p class="text-pColor font-medium">Businessman</p>
+          </div>
         </div>
       </section>
     </main>
